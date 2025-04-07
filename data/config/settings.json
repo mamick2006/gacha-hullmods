@@ -1,0 +1,18 @@
+{
+  "plugins": {},
+  "ruleCommandPackages": [
+    "gacha_hullmods.rules"
+  ],
+  "graphics": {
+    "illustrations": {
+      "gacha_hullmods_candy": "graphics/gacha_hullmods/illustrations/gacha_candy.png",
+    },
+    "characters": {
+      "gacha_hullmods_character": "graphics/gacha_hullmods/portraits/character.png",
+    },
+    "icons": {
+      "gacha_hullmods_icon": "graphics/gacha_hullmods/icons/gacha.png",
+      "gacha_hullmods_line": "graphics/gacha_hullmods/icons/line.png",
+    },
+  }
+}

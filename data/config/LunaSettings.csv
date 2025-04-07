@@ -1,0 +1,8 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+gacha_settingsHeader,Gacha Header,Header,Gacha Hullmods,,,,,
+gacha_1_star_prob,1 Star Probability,Double,0.3,,Weighted chance of rolling a [1 Star] Hullmod.,0,1.0,
+gacha_2_star_prob,2 Star Probability,Double,0.3,,Weighted chance of rolling a [2 Star] Hullmod.,0,1.0,
+gacha_3_star_prob,3 Star Probability,Double,0.2,,Weighted chance of rolling a [3 Star] Hullmod.,0,1.0,
+gacha_4_star_prob,4 Star Probability,Double,0.15,,Weighted chance of rolling a [4 Star] Hullmod.,0,1.0,
+gacha_5_star_prob,5 Star Probability,Double,0.05,,Weighted chance of rolling a [5 Star] Hullmod.,0,1.0,
+,,,,,,,,

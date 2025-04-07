@@ -1,0 +1,37 @@
+{
+  "gacha_hullmods_1": [
+    {
+      "file": "sounds/gacha_hullmods/gacha_hullmods_1.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    },
+  ],
+  "gacha_hullmods_2": [
+    {
+      "file": "sounds/gacha_hullmods/gacha_hullmods_2.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    },
+  ],
+  "gacha_hullmods_3": [
+    {
+      "file": "sounds/gacha_hullmods/gacha_hullmods_3.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    },
+  ],
+  "gacha_hullmods_4": [
+    {
+      "file": "sounds/gacha_hullmods/gacha_hullmods_4.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    },
+  ],
+  "gacha_hullmods_5": [
+    {
+      "file": "sounds/gacha_hullmods/gacha_hullmods_5.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    },
+  ]
+}
