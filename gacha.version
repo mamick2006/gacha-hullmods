@@ -21,8 +21,7 @@
     # This is used to launch directly to the forum thread from in the game.
     # The ID is the set of digits at the end of the forum thread URL before the dot.
     # For example: https://fractalsoftworks.com/forum/index.php?topic=8181.0 has a modThreadId of 8181
-    # TODO: Add this
-    # "modThreadId":31649,
+    "modThreadId":32287,
 
     # The ID of the NexusMods page for this mod (optional)
     # This is used to launch directly to the NexusMods page from in the game.
@@ -48,7 +47,6 @@
     # Links to a direct download of the mod; fetched from the online version file
     # Used to download updates through LunaLib's main menu version checker UI
     #"directDownloadURL":"https://github.com/LazyWizard/version-checker/releases/latest/download/Version_Checker.zip",
-    # TODO: test this
     "directDownloadURL":"https://github.com/mamick2006/gacha-hullmods/releases/latest/download/Gacha.Hullmods.zip",
 
     # Point at a directly accessible text file; fetched from the online version file

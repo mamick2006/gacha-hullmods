@@ -1,2 +1,7 @@
 v1.0.0
+Save compatible. Can be added to existing saves.
+
+- Fix crash when removing hullmod.
+
+v1.0.0
 - Initial release.
