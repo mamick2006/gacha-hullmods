@@ -1,7 +1,20 @@
-v1.0.0
+v1.0.2
 Save compatible. Can be added to existing saves.
 
-- Fix crash when removing hullmod.
+- Higher rarities will have *slightly* higher IV rolls. The opposite is true for lower rarities.
+- IVs rolls now follow a normal distribution (for the nerds, it has a standard deviation of 20, and a mean of -10, -5, 0, 5, or 10).
+- In compensation for the above, the cost to reroll is now 30% instead of 40%.
+- Removed `Liminal.jar` which was there accidentally.
+- Things are now highlighted in the tooltip.
+- Made some text slightly less cringe. Only slightly.
+- Add README.
+
+
+v1.0.1
+Save compatible. Can be added to existing saves.
+
+- Fix crash when removing hullmod under certain circumstances.
+
 
 v1.0.0
 - Initial release.

@@ -8,15 +8,13 @@ Mythic,gacha_hullmods_5,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_sa
 ,,,,,,,,,,,,,,,,,,,
 Roll the Gacha,gacha_hullmods_add,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodAdd,"Roll the gacha, and add a random hullmod to your ship! First hit's free, though removing it to roll again will cost you.
 
-Rates, unless you've changed them somehow, are: 1 star (30%%), 2 star (30%%), 3 star (20%%), 4 star (15%%), 5 star (5%%). Pretty generous, right? Usually the 5 star rate is like 1%%!
+Rates are: 1 star (%s), 2 star (%s), 3 star (%s), 4 star (%s), 5 star (%s). Pretty generous, right? Usually the 5 star rate is %s!
 
-1 stars will give you negative effects, 2 stars give nothing, 3 stars give a positive effect, 4 stars give a logistic effect, and 5 stars give you a special effect! Aim big! (Disclaimer: Not all effects can be rolled.)
+1 stars will give you a negative effect, 2 stars give nothing, 3 stars give a positive effect, 4 stars give a logistic effect, and 5 stars give you a special effect! Aim big! (Disclaimer: Not all effects can be rolled.)
 
-Oh, and to make it more interesting each roll will also give your ship random IVs, shamelessly copied from Pokemon. Each stat will modify the corresponding ship stat by -30%% to 30%% depending on the roll. So you'll need to get doubly lucky to have a good ship!
+Oh, and to make it more interesting each roll will also give your ship random IVs, shamelessly copied from Pokemon. Each stat will modify the corresponding ship stat by %s to %s depending on the roll. Higher rarities will get slightly better rolls. So you'll need to get doubly lucky to have a good ship!
 
 The stats are: HP (ship hull), ATK (ballistic damage), DEF (armor), SP ATK (energy damage), SP DEF (flux vent/capacity), and SPD (speed, duh).",Roll the Gacha,,graphics/gacha_hullmods/icons/gacha.png
-Remove the Gacha,gacha_hullmods_remove,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRemove,"Remove the gacha so you can roll again! It'll cost you around 40%% of the value of your ship to remove this. I have to make a living somehow.
+Remove the Gacha,gacha_hullmods_remove,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRemove,"Remove the gacha so you can roll again! It'll cost you around %s of the value of your ship to remove this. I have to make a living somehow!
 
-And may the odds be ever in your favour. Try whaling.
-
-I'll shut up now.",Remove the Gacha,,graphics/gacha_hullmods/hullmods/gacha_remove.png
+May the odds be ever in your favour.",Remove the Gacha,,graphics/gacha_hullmods/hullmods/gacha_remove.png
