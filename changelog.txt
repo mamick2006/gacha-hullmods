@@ -1,3 +1,11 @@
+v1.0.3
+Save compatible. Can be added to existing saves.
+
+- Fixed bug where effect that added a fighter bay didn't work on ships that don't have fighter bays. This fix works retroactively.
+- Added weapon OP reduction effect back into the pool, as long as you have the (currently unreleased, but might be released by the time you read this) Liminal v2.0.2.
+- Fixed crash in mission refit screen.
+- Removed '.git' folder from the zip.
+
 v1.0.2
 Save compatible. Can be added to existing saves.
 

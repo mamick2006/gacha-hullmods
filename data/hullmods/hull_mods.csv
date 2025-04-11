@@ -18,3 +18,8 @@ The stats are: HP (ship hull), ATK (ballistic damage), DEF (armor), SP ATK (ener
 Remove the Gacha,gacha_hullmods_remove,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRemove,"Remove the gacha so you can roll again! It'll cost you around %s of the value of your ship to remove this. I have to make a living somehow!
 
 May the odds be ever in your favour.",Remove the Gacha,,graphics/gacha_hullmods/hullmods/gacha_remove.png
+,,,,,,,,,,,,,,,,,,,
+# Hidden
+gacha_hullmods_fb,gacha_hullmods_fb,1,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage,hide_in_codex","Special, Requires Dock",,FALSE,TRUE,TRUE,0,0,0,0,gacha_hullmods.hullmods.HullmodFB,Adds the fighter bay,,,graphics/gacha_hullmods/icons/gacha.png
+gacha_hullmods_op,gacha_hullmods_op,1,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage,hide_in_codex","Special, Requires Dock",,FALSE,TRUE,TRUE,0,0,0,0,gacha_hullmods.hullmods.HullmodOP,Adds OP thing,,,graphics/gacha_hullmods/icons/gacha.png
+,,,,,,,,,,,,,,,,,,,
