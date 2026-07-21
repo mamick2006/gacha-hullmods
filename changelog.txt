@@ -1,9 +1,23 @@
+v2.0.0
+Probably not save compatible with previous versions of the mod. Can be added to existing saves.
+
+- Reworked rolls with 5 custom power tiers, that should make things more "balanced" and interesting.
+- Every roll has a 20% chance to come with a second effect.
+- 29 new rollable effects, including new super-interesting super-cool 20 gacha-exclusive ones (Null Frame, Mirror Skin, Mine Fabricator, Opening Statement, Hemovore Array, Heads or Tails, etc.).
+- The hullmod tooltip now shows each rolled effect's name above its effect.
+- Closed a free-reroll exploit: undoing your refit changes after a roll no longer lets you roll again.
+- Rolling on ship modules is blocked now. It never did anything.
+- Fixed the SP ATK IV modifying ballistic damage instead of energy damage.
+- Fixed typos in text.
+- Updated to 0.98a-RC8.
+
+
 v1.0.3
 Save compatible. Can be added to existing saves.
 
 - Fixed bug where effect that added a fighter bay didn't work on ships that don't have fighter bays. This fix works retroactively.
 - Added weapon OP reduction effect back into the pool, as long as you have the (currently unreleased, but might be released by the time you read this) Liminal v2.0.2.
-- Fixed crash in mission refit screen.
+- Fixed crash in mission refit screen. Though no promises that it'll actually work there, I think it'll work as long as you don't restart the game or something.
 - Removed '.git' folder from the zip.
 
 v1.0.2

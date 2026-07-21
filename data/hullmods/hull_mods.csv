@@ -1,23 +1,25 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 # Player mods
-Common,gacha_hullmods_1,1,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod1,"A common modification that probably hurts your vessel.",Common rarity,,graphics/gacha_hullmods/hullmods/gacha_hullmods_1.png
-Uncommon,gacha_hullmods_2,2,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod2,"An uncommon modification that neither improves nor degrades your ship's capabilities.",Uncommon rarity,,graphics/gacha_hullmods/hullmods/gacha_hullmods_2.png
-Rare,gacha_hullmods_3,3,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod3,"A rare modification that enhances your vessel's performance.",Rare rarity,,graphics/gacha_hullmods/hullmods/gacha_hullmods_3.png
-Legendary,gacha_hullmods_4,4,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod4,"A legendary modification that greatly improves your ship.",Legendary rarity,,graphics/gacha_hullmods/hullmods/gacha_hullmods_4.png
-Mythic,gacha_hullmods_5,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod5,"A mythic modification of unparalleled power.",Mythic rarity,,graphics/gacha_hullmods/hullmods/gacha_hullmods_5.png
+Common,gacha_hullmods_1,1,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod1,"A common modification.",Common rarity.,,graphics/gacha_hullmods/hullmods/gacha_hullmods_1.png
+Uncommon,gacha_hullmods_2,2,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod2,"An uncommon modification.",Uncommon rarity.,,graphics/gacha_hullmods/hullmods/gacha_hullmods_2.png
+Rare,gacha_hullmods_3,3,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod3,"A rare modification!",Rare rarity.,,graphics/gacha_hullmods/hullmods/gacha_hullmods_3.png
+Legendary,gacha_hullmods_4,4,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod4,"A legendary modification!!",Legendary rarity.,,graphics/gacha_hullmods/hullmods/gacha_hullmods_4.png
+Mythic,gacha_hullmods_5,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,TRUE,,0,0,0,0,gacha_hullmods.hullmods.Hullmod5,"A mythic modification!!1!!",Mythic rarity.,,graphics/gacha_hullmods/hullmods/gacha_hullmods_5.png
 ,,,,,,,,,,,,,,,,,,,
 Roll the Gacha,gacha_hullmods_add,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodAdd,"Roll the gacha, and add a random hullmod to your ship! First hit's free, though removing it to roll again will cost you.
 
 Rates are: 1 star (%s), 2 star (%s), 3 star (%s), 4 star (%s), 5 star (%s). Pretty generous, right? Usually the 5 star rate is %s!
 
-1 stars will give you a negative effect, 2 stars give nothing, 3 stars give a positive effect, 4 stars give a logistic effect, and 5 stars give you a special effect! Aim big! (Disclaimer: Not all effects can be rolled.)
+Effects are sorted into five power tiers. You roll an effect based on your tier: generally 1 star is actively harmful, 2 stars are weak, 3 stars are solid, 4 stars are strong, and 5 stars are really good! Generally. Idk, what is balance anyway.
 
 Oh, and to make it more interesting each roll will also give your ship random IVs, shamelessly copied from Pokemon. Each stat will modify the corresponding ship stat by %s to %s depending on the roll. Higher rarities will get slightly better rolls. So you'll need to get doubly lucky to have a good ship!
 
-The stats are: HP (ship hull), ATK (ballistic damage), DEF (armor), SP ATK (energy damage), SP DEF (flux vent/capacity), and SPD (speed, duh).",Roll the Gacha,,graphics/gacha_hullmods/icons/gacha.png
+The stats are: HP (ship hull), ATK (ballistic damage), DEF (armor), SP ATK (energy damage), SP DEF (flux vent/capacity), and SPD (speed, duh).
+
+One more thing: every roll has a %s chance to come with a second effect drawn from the whole pool. Lucky you!",Roll the Gacha.,,graphics/gacha_hullmods/icons/gacha.png
 Remove the Gacha,gacha_hullmods_remove,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRemove,"Remove the gacha so you can roll again! It'll cost you around %s of the value of your ship to remove this. I have to make a living somehow!
 
-May the odds be ever in your favour.",Remove the Gacha,,graphics/gacha_hullmods/hullmods/gacha_remove.png
+May the odds be ever in your favour.",Remove the Gacha.,,graphics/gacha_hullmods/hullmods/gacha_remove.png
 ,,,,,,,,,,,,,,,,,,,
 # Hidden
 gacha_hullmods_fb,gacha_hullmods_fb,1,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage,hide_in_codex","Special, Requires Dock",,FALSE,TRUE,TRUE,0,0,0,0,gacha_hullmods.hullmods.HullmodFB,Adds the fighter bay,,,graphics/gacha_hullmods/icons/gacha.png

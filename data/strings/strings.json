@@ -1,0 +1,17 @@
+{
+  "gacha_hullmods": {
+    "dialog_gained": "Gained some cool new gacha hullmods!!!!! Congrats!!!",
+    "reason_module": "Modules can't roll the gacha.",
+    "reason_already_rolled": "This ship already rolled the gacha. Remove the Gacha (for a price) to roll again.",
+    "reason_has_hullmod": "You already have a gacha hullmod! It must be removed before adding this hullmod.",
+    "reason_no_credits": "You don't have enough credits to remove the gacha hullmod.",
+    "reason_nothing_to_remove": "There must be a gacha hullmod on the ship to remove it.",
+    "remove_cost_tooltip": "Removing the gacha hullmod will cost you %s.",
+    "iv_hp": "HP (Hull): ",
+    "iv_atk": "ATK (Ballistic Damage): ",
+    "iv_def": "DEF (Armor): ",
+    "iv_sp_atk": "SP ATK (Energy Damage): ",
+    "iv_sp_def": "SP DEF (Flux Capacity/Dissipation): ",
+    "iv_spd": "SPD (Speed/Maneuverability): "
+  }
+}

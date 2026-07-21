@@ -5,15 +5,15 @@ gacha_hullmods_start,PopulateOptions,"$id == station_galatia_academy
 gacha_hullmods_continue,DialogOptionSelected,$option == gacha_hullmods_continue,"ShowImageVisual gacha_hullmods_candy
 $player.gacha_hullmods_enabled = true","A man wearing a trenchcoat and fedora steps out from behind the van as you approach. ""Psst kid, want some free candy?""
 
-Looking around, no-one else seems to notice you, or the strange van. Even ignoring the question of why a van is in the middle of the hallway, the design of the van looks like nothing you've ever seen before, like nothing that comes from this millenia. But people seem to be milling by you without even a glance in your direction.
+Looking around, no-one else seems to notice you, or the strange van. Even ignoring the question of why a van is in the middle of the hallway, the design of the van looks like nothing you've ever seen before, like nothing that comes from this millennium. But people seem to be milling by you without even a glance in your direction.
 
 ""Ignore them,"" the man continues. ""They're just NPCs. They can't see me. Well, I guess I'm something of an NPC myself."" He laughs.
 ",gacha_hullmods_continue2:What?,
 gacha_hullmods_continue2,DialogOptionSelected,$option == gacha_hullmods_continue2,"GachaHullmods_ShowAndCreatePerson gacha_hullmods_character
 SetTextHighlightColors ""255,165,0,255""
-SetTextHighlights""Liminality"" ","""Ah yes, the illusion of choice. But we know all about illusions, don't we Sir Starsector,"" he says.
+SetTextHighlights ""Liminality"" ","""Ah yes, the illusion of choice. But we know all about illusions, don't we, Sir Starsector,"" he says.
 
-""Well, it appears some friends of yours have found something quite interesting. The Liminality (orange emphasis theirs). Or maybe you've already talked to them about it. Or maybe they've delved too deep and brought something terrible here. Maybe you've already fought the big bad, but no spoilers of course."" He shrugs, and leans against the van.
+""Well, it appears some friends of yours have found something quite interesting. The Liminality (orange emphasis theirs). Or maybe you've already talked to them about it. Or maybe they've dug too deep and brought something terrible here. Maybe you've already fought the big bad, but no spoilers of course."" He shrugs, and leans against the van.
 
 ""Your dimensional threshold is being poked by something much bigger than yourself, but it also caught my attention. I have something for you. Free candy, you might say. I might say.""","gacha_hullmods_continue31:You are super excited and jump at the chance
 gacha_hullmods_continue32:You are mildly excited and jump at the chance
