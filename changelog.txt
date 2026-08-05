@@ -1,3 +1,9 @@
+v2.0.1
+Save compatible. Can be added to existing saves.
+
+- Added support for other mods adding their own rollable effects. See MODDING.md.
+
+
 v2.0.0
 Probably not save compatible with previous versions of the mod. Can be added to existing saves.
 
