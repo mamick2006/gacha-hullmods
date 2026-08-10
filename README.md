@@ -1,5 +1,5 @@
 
-![alt text](https://i.imgur.com/A5gSPLf.png)
+![alt text](screenshots/gacha_promo_header.png)
 
 # Gacha Hullmods
 > It's F2P friendly! You can beat the entire story with just free characters.
@@ -9,7 +9,7 @@ Have you ever wanted your ships to be more random? Sad that you can't get enough
 
 Well roll the dice, applying a random effect to your ships! Unlock the hullmods at Galatia Academy.
 
-[Forum link](https://fractalsoftworks.com/forum/index.php?topic=32287)
+[Forum link](https://fractalsoftworks.com/forum/index.php?topic=32287.0)
 
 ## Screenshots
 
