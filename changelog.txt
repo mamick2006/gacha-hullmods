@@ -1,3 +1,20 @@
+v3.0.0
+Not save compatible with previous versions of the mod. Can be added to existing saves.
+
+- Updated for Starsector 0.98.5a.
+- Completely redesigned UI.
+- Added a setting for the cost of removing a gacha hullmod.
+- Every ship is now guaranteed a 5 star within 30 rolls.
+- Rolls no longer give effects the ship can't use (fighter effects with no fighter bays, missile effects with no missile mounts, shield effects with no shield).
+- Buffed Mirror Skin (1% to 5%) and Parting Gift (30% to 50%).
+- Fixed Mirror Skin reflecting 10x too much beam damage, and Null Frame wasting its cooldown on beams.
+- Reduced the SPD IV's effect on turn acceleration.
+- Removing a gacha hullmod costs twice as much in Survival Mode. Added a setting to turn this off.
+- Added a Reroll the IVs hullmod.
+- In a sector with no Galatia Academy, such as some Nexerelin random sectors, the gacha starts at another market.
+- jars directory now has the zipped source code
+
+
 v2.0.1
 Save compatible. Can be added to existing saves.
 

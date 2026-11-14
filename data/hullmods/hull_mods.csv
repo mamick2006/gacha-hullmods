@@ -14,12 +14,13 @@ Effects are sorted into five power tiers. You roll an effect based on your tier:
 
 Oh, and to make it more interesting each roll will also give your ship random IVs, shamelessly copied from Pokemon. Each stat will modify the corresponding ship stat by %s to %s depending on the roll. Higher rarities will get slightly better rolls. So you'll need to get doubly lucky to have a good ship!
 
-The stats are: HP (ship hull), ATK (ballistic damage), DEF (armor), SP ATK (energy damage), SP DEF (flux vent/capacity), and SPD (speed, duh).
+The stats are: HP (ship hull), ATK (ballistic damage), DEF (armor), SP ATK (energy damage), SP DEF (flux capacity/dissipation), and SPD (speed, duh).
 
-One more thing: every roll has a %s chance to come with a second effect drawn from the whole pool. Lucky you!",Roll the Gacha.,,graphics/gacha_hullmods/icons/gacha.png
-Remove the Gacha,gacha_hullmods_remove,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRemove,"Remove the gacha so you can roll again! It'll cost you around %s of the value of your ship to remove this. I have to make a living somehow!
+Every roll also has a %s chance to come with a second effect from any tier. Lucky you!",Roll the Gacha.,,graphics/gacha_hullmods/icons/gacha.png
+Remove the Gacha,gacha_hullmods_remove,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRemove,"Remove the gacha so you can roll again! It'll cost you around %s of the value of your ship to remove this (double that in Survival Mode, to go by normal ship prices). I have to make a living somehow!
 
 May the odds be ever in your favour.",Remove the Gacha.,,graphics/gacha_hullmods/hullmods/gacha_remove.png
+Reroll the IVs,gacha_hullmods_reroll_ivs,5,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage","Special, Requires Dock",,FALSE,,,0,0,0,0,gacha_hullmods.hullmods.HullmodRerollIVs,"Reroll your ship's IVs. The rarity and effects stay the same. It costs %s times as much as removing the gacha.",Reroll the IVs.,,graphics/gacha_hullmods/hullmods/gacha_reroll_ivs.png
 ,,,,,,,,,,,,,,,,,,,
 # Hidden
 gacha_hullmods_fb,gacha_hullmods_fb,1,,Liminal,"no_build_in,no_drop,req_spaceport,no_drop_salvage,hide_in_codex","Special, Requires Dock",,FALSE,TRUE,TRUE,0,0,0,0,gacha_hullmods.hullmods.HullmodFB,Adds the fighter bay,,,graphics/gacha_hullmods/icons/gacha.png

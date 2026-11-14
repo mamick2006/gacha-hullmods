@@ -1,4 +1,27 @@
 {
+  # Weighted chance of rolling each rarity, from 1 Star to 5 Star. The five chances
+  # are scaled to add up to 1. The LunaLib settings of the same ids override them
+  # when LunaLib is enabled.
+  "gacha_1_star_prob": 0.3,
+  "gacha_2_star_prob": 0.3,
+  "gacha_3_star_prob": 0.2,
+  "gacha_4_star_prob": 0.15,
+  "gacha_5_star_prob": 0.05,
+  # The removal cost as a fraction of the ship's base value. The LunaLib setting
+  # of the same id overrides it when LunaLib is enabled.
+  "gacha_remove_cost_frac": 0.3,
+  # In a Survival Mode game, multiply the removal cost by gacha_survival_fee_mult.
+  # The LunaLib setting of the same id overrides gacha_survival_adjustments when
+  # LunaLib is enabled. The multiplier is read from this file only.
+  "gacha_survival_adjustments": true,
+  "gacha_survival_fee_mult": 2.0,
+  # In-game days a ship with a gacha hullmod can be missing before its rarity,
+  # effects and IVs are deleted. A ship is missing when it is not in any fleet,
+  # storage or market.
+  "gacha_registry_keep_days": 365,
+  # Each ship counts its rolls since its last 5 star, and the roll that reaches this
+  # number is always a 5 star. 0 turns the guarantee off.
+  "gacha_pity_pulls": 30,
   "plugins": {},
   "ruleCommandPackages": [
     "gacha_hullmods.rules"
@@ -13,6 +36,11 @@
     "icons": {
       "gacha_hullmods_icon": "graphics/gacha_hullmods/icons/gacha.png",
       "gacha_hullmods_line": "graphics/gacha_hullmods/icons/line.png",
+      "gacha_hullmods_stars_1": "graphics/gacha_hullmods/icons/stars_1.png",
+      "gacha_hullmods_stars_2": "graphics/gacha_hullmods/icons/stars_2.png",
+      "gacha_hullmods_stars_3": "graphics/gacha_hullmods/icons/stars_3.png",
+      "gacha_hullmods_stars_4": "graphics/gacha_hullmods/icons/stars_4.png",
+      "gacha_hullmods_stars_5": "graphics/gacha_hullmods/icons/stars_5.png",
     },
   }
 }

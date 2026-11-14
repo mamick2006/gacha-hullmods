@@ -11,8 +11,8 @@ For a more complete example of how to do this, see `https://github.com/mamick200
 Add to `gacha_instructions.csv` something like:
 
 ```
-id,tier,plugin,group,opCost,creditsCost,rpMult,name,desc,effect,template
-mymod_ablative_wash,4,mymod.instructions.AblativeWash,STANDARD,8,300,6,Ablative Wash,Sacrificial plating that boils off under fire.,Increases armor by %s.,
+id,tier,plugin,group,opCost,rpMult,name,desc,effect,template,needs
+mymod_ablative_wash,4,mymod.instructions.AblativeWash,STANDARD,8,6,Ablative Wash,Sacrificial plating that boils off under fire.,Increases armor by %s.,,
 ```
 
 And make the corresponding AblativeWash class like:
@@ -57,9 +57,9 @@ only when the matching `has...` method returns true, so override `hasAdvanceInCo
 | `plugin` | The class where the instruction is implemented. |
 | `group` | `STANDARD`, `NEGATIVE`, `LOGISTIC` or `SPECIAL`. You can probably actually make effects not scale with level at all, since they're only using for effects in gacha hullmod, so you can ignore this. |
 | `opCost` | Ordnance points it takes in a Liminal template. Ignored on a gacha roll. |
-| `creditsCost` | Monthly upkeep contribution in a Liminal template. Ignored on a gacha roll. |
 | `rpMult` | Research points to unlock at level 0, and the scale for each level after. Ignored on a gacha roll. |
 | `name` | The display name. |
 | `desc` | Flavour text, shown in Liminal's research list. |
 | `effect` | The effect description. `effectTemplate()` returns it, and each `%s` is filled by the arguments you pass `addPara`. |
 | `template` | `true` puts the Instruction in Liminal's template roster instead of the gacha pool. Anything else leaves it in the gacha pool. |
+| `needs` | `BAYS`, `MISSILES` or `SHIELD` stops the Instruction from being rolled on a hull with no fighter bays, no missile mounts or no shield. Leave it empty if any ship can use the effect. |

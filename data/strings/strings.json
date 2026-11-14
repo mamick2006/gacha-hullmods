@@ -1,17 +1,27 @@
 {
   "gacha_hullmods": {
     "dialog_gained": "Gained some cool new gacha hullmods!!!!! Congrats!!!",
+    "msg_start_place": "There is no Galatia Academy in this sector. The gacha is at %s in the %s.",
     "reason_module": "Modules can't roll the gacha.",
-    "reason_already_rolled": "This ship already rolled the gacha. Remove the Gacha (for a price) to roll again.",
-    "reason_has_hullmod": "You already have a gacha hullmod! It must be removed before adding this hullmod.",
+    "reason_already_rolled": "This ship already rolled the gacha. Use Remove the Gacha to roll again.",
+    "reason_has_hullmod": "This ship already has a gacha hullmod. Use Remove the Gacha to roll again.",
+    "guarantee_tooltip": "This ship is guaranteed a 5 star within %s rolls.",
+    "guarantee_next_tooltip": "This ship's next roll is a guaranteed 5 star.",
     "reason_no_credits": "You don't have enough credits to remove the gacha hullmod.",
-    "reason_nothing_to_remove": "There must be a gacha hullmod on the ship to remove it.",
+    "reason_nothing_to_remove": "This ship has no gacha hullmod to remove.",
     "remove_cost_tooltip": "Removing the gacha hullmod will cost you %s.",
-    "iv_hp": "HP (Hull): ",
-    "iv_atk": "ATK (Ballistic Damage): ",
-    "iv_def": "DEF (Armor): ",
-    "iv_sp_atk": "SP ATK (Energy Damage): ",
-    "iv_sp_def": "SP DEF (Flux Capacity/Dissipation): ",
-    "iv_spd": "SPD (Speed/Maneuverability): "
+    "reason_nothing_to_reroll": "This ship has no IVs to reroll.",
+    "reason_reroll_no_credits": "You don't have enough credits to reroll the IVs.",
+    "reroll_cost_tooltip": "Rerolling the IVs will cost you %s.",
+    "effect_second": "Second effect",
+    "effect_negative": "Negative effect",
+    "effect_second_negative": "Negative second effect",
+    "ivs_heading": "IVs",
+    "iv_hp": "HP (Hull)",
+    "iv_atk": "ATK (Ballistic Damage)",
+    "iv_def": "DEF (Armor)",
+    "iv_sp_atk": "SP ATK (Energy Damage)",
+    "iv_sp_def": "SP DEF (Flux Capacity/Dissipation)",
+    "iv_spd": "SPD (Speed/Maneuverability)"
   }
 }

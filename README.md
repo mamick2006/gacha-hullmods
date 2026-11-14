@@ -9,6 +9,8 @@ Have you ever wanted your ships to be more random? Sad that you can't get enough
 
 Well roll the dice, applying a random effect to your ships! Unlock the hullmods at Galatia Academy.
 
+Requires Liminal. Can be added to existing saves. Full survival-mode support.
+
 [Forum link](https://fractalsoftworks.com/forum/index.php?topic=32287.0)
 
 ## Screenshots
