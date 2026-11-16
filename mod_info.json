@@ -3,9 +3,9 @@
   "name": "Gacha Hullmods",
   "author": "Mamick",
   "utility": "false",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Roll for random hullmods. I hope you get lucky!",
-  "gameVersion": "0.98.5a-RC5",
+  "gameVersion": "0.98.5a-RC7",
   "jars": [
     "jars/Gacha.jar"
   ],

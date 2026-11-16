@@ -8,6 +8,8 @@ import gacha_hullmods.GachaHullmodInstructions;
 import gacha_hullmods.GachaStrings;
 import gacha_hullmods.Registry;
 import gacha_hullmods.hullmods.HullmodAdd;
+import gacha_hullmods.rules.GachaHullmods_AtStart;
+import gacha_hullmods.rules.StartRule;
 import liminal.start.StartPlace;
 
 public class GachaPlugin extends BaseModPlugin {
@@ -50,8 +52,9 @@ public class GachaPlugin extends BaseModPlugin {
   private static void tellStartPlace() {
     try {
       StartPlace.decide();
-      if (!Global.getSector().getCharacterData().getMemoryWithoutUpdate()
-          .getBoolean("$gacha_hullmods_enabled")) {
+      boolean started = Global.getSector().getCharacterData().getMemoryWithoutUpdate()
+          .getBoolean("$gacha_hullmods_enabled");
+      if (StartRule.tellsStartPlace(started, !started && GachaHullmods_AtStart.skipTrip())) {
         StartPlace.tell(GachaStrings.get("msg_start_place"),
             Global.getSettings().getSpriteName("icons", "gacha_hullmods_icon"), Misc.getHighlightColor());
       }

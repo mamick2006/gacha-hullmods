@@ -22,6 +22,10 @@
   # Each ship counts its rolls since its last 5 star, and the roll that reaches this
   # number is always a 5 star. 0 turns the guarantee off.
   "gacha_pity_pulls": 30,
+  # The default for the LunaLib row of the same key, read when LunaLib is not
+  # installed. On: the gacha can be learned at any docked market, not only at the
+  # Galatia Academy.
+  "gacha_skip_galatia": false,
   "plugins": {},
   "ruleCommandPackages": [
     "gacha_hullmods.rules"
